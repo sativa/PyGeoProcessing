@@ -1,4 +1,5 @@
 #Program to calculate NDVI 
+#Author: Baburao Kamble
 #import GDAL libraries 
 
 from osgeo import gdal
