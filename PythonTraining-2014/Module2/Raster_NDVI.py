@@ -1,7 +1,4 @@
 #Program to calculate NDVI 
-
-
-
 #import GDAL libraries 
 
 from osgeo import gdal
@@ -13,7 +10,7 @@ import time, numpy
 
 # utility to read blocks 
 import imp
-utils2 = imp.load_source('utils2', 'E:/Teaching/Python/Scripts/image/Utils/utils.py')
+utils2 = imp.load_source('utils2', 'utils.py')
 
 
 def image_read_function(RED, NIR):
